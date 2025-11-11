@@ -309,5 +309,9 @@ function Rename-Files {
 } 
 
 
-Rename-Files -SourcePath "E:\scripts\share\Projects\Quick-Cli Tools\Files" -Filter "*.txt" -Prefix "finance_" -BackupFolder "E:\scripts\share\Projects\Quick-Cli Tools\backup" -LogPath "E:\scripts\share\Projects\Quick-Cli Tools\RenameTool.csv"
 
+
+
+#-------------------------- Example Usage:
+#Rename-Files -SourcePath "E:\scripts\share\Projects\Quick-Cli Tools\Files" -Filter "*.txt" -Prefix "finance_" -BackupFolder "E:\scripts\share\Projects\Quick-Cli Tools\backup" -LogPath "E:\scripts\share\Projects\Quick-Cli Tools\RenameTool.csv"
+#--------------------------
